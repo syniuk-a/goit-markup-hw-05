@@ -323,6 +323,29 @@ img {
   line-height: 1.2;
   text-align: center;
 }
+.doing-img {
+  position: relative;
+}
+.doing-text-thumb {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  height: 70px;
+
+  text-justify: center;
+  text-align: center;
+  padding-top: 27px;
+
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 
 /*=======FOR SECTION команда====*/
 .team-container {
@@ -676,15 +699,14 @@ Offset:
 Effect: Drop shadow
 Radius: 1px
 Offset:  */
-.doing-thumb {
+/* .doing-thumb {
   position: relative;
-}
-.doing-text-thumb {
-  position: absolute;
-  width: 100%;
-  height: 70px;
-  background-color: rgba(47, 48, 58, 0.8);
-}
+  right: var(--grid-margin);
+} */
+
+/* 
+
+color: #FFFFFF; */
 
 /* width: 100%;
   height: 70px;
