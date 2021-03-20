@@ -91,7 +91,6 @@ img {
   margin: 0 auto;
   padding: 0 15;
 }
-
 .navigaion {
   height: inherit;
   margin: 24px 0 25px 93px;
@@ -103,6 +102,7 @@ img {
 .navigation-item {
   height: inherit;
   display: flex;
+  justify-content: center;
   margin-left: 50px;
   display: block;
 }
@@ -114,20 +114,22 @@ img {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  left: 0;
-  top: 0;
 }
 /* .navigation-link::after, */
 .navigation-link::after {
   content: '';
+
   position: absolute;
+  left: 0;
+  top: 43px;
+
   opacity: 0;
   height: 4px;
   width: 100%;
   background: var(--accent-color);
   border-radius: 2px;
 }
-.navigation-link.current,
+/* .navigation-link.current, */
 .navigation-link.current::after {
   /* position: absolute; */
   display: block;
