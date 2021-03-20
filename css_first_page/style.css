@@ -564,6 +564,7 @@ img {
   margin: 0 0 9px 0;
   list-style: none;
 }
+
 .futer-address:last-child {
   margin-bottom: 0;
 }
@@ -573,6 +574,45 @@ img {
 .futer-kontakt {
   color: rgba(255, 255, 255, 0.6);
 }
+
+.futer-kontakt-icon {
+  width: 14px;
+  height: 14px;
+  fill: var(--second-text-color);
+}
+.futer-kontakt-icon:focus,
+.futer-kontakt:hover,
+.futer-kontakt-icon:hover,
+.futer-kontakt:focus {
+  fill: var(--bg-color);
+  color: var(--bg-color);
+}
+
+/* .futer-address:focus.futer-addres-icon.futer-addres-icon,
+.futer-address:hover.futer-addres-icon.futer-addres-icon {
+  fill: var(--second-text-color);
+  color: var(--second-text-color);
+} */
+.futer-addres-icon {
+  width: 14px;
+  height: 14px;
+  fill: var(--bg-color);
+}
+.futer-addres-icon.futer-addres-icon:hover,
+.futer-kontakt-text.futer-kontakt-text:hover {
+  fill: var(--second-text-color);
+  color: var(--second-text-color);
+}
+.social-item {
+  display: block;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: calc(-1 * var(--grid-margin));
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
+
 .futer-social-titel {
   text-transform: uppercase;
   color: var(--bg-color);
@@ -740,6 +780,7 @@ img {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+/* ======= BACKDROP =========== */
 .backdrop {
   position: fixed;
   pointer-events: none;
@@ -754,6 +795,8 @@ img {
   opacity: 0;
   pointer-events: none;
 }
+
+/* MODAL модальное окно */
 .modal {
   position: absolute;
   top: 50%;
