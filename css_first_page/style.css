@@ -101,6 +101,8 @@ img {
   height: inherit;
 }
 .navigation-item {
+  height: inherit;
+  display: flex;
   margin-left: 50px;
   display: block;
 }
@@ -715,6 +717,7 @@ img {
   margin: 0 0 4px 0;
   padding: 0 0 0 24px;
   font-weight: bold;
+  color: #212121;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
